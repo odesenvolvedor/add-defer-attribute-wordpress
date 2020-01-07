@@ -7,4 +7,4 @@ ocorria vários erros de JavaScript.
 Quando descobri que o erro ocorria no momento de carregar o script exterdo no SDK do Mercado Pago, eu encontrei a solução no artigo do Matthew Horne
 em seu blog: https://matthewhorne.me/defer-async-wordpress-scripts/
 
-O exemplo serve para qualquer script que precisa ser adiado o carregamento.
+O exemplo serve para qualquer script que precisa ser adiado o carregamento, bastando adicionar o nome no array $scripts_to_defer.
